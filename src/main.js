@@ -59,7 +59,7 @@ import { Utils } from './util';
         offscreenctx.font = "bold " + (WIDTH / 10) + "px arial";
         offscreenctx.textAlign = 'center';
         offscreenctx.baseline = 'middle';
-        offscreenctx.fillText("Have a nice day", WIDTH / 2, HEIGHT / 2);
+        offscreenctx.fillText("Have a nice day", WIDTH / 2, HEIGHT / 2 + 24);
         const imgData = offscreenctx.getImageData(0, 0, WIDTH, HEIGHT).data;
 
         canvas.width = WIDTH;
